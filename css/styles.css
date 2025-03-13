@@ -104,6 +104,17 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.image-container > img:hover { 
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+  }
+
+.center { 
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+ }
+
 hr {
   margin: 1rem 0;
   color: inherit;
